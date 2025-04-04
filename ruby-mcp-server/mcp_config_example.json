@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "ruby-hello-world": {
+      "command": "ruby",
+      "args": ["/path/to/ruby-mcp-server/hello_world_server.rb"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "ruby-weather": {
+      "command": "ruby",
+      "args": ["/path/to/ruby-mcp-server/weather_server.rb"],
+      "env": {
+        "OPENWEATHER_API_KEY": "your_api_key_here"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
