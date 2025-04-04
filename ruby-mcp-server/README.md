@@ -241,7 +241,3 @@ The MCP server includes error handling to ensure that errors are properly report
 ```ruby
 server.onerror = ->(error) { STDERR.puts("[Custom Error] #{error}") }
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
